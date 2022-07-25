@@ -1,8 +1,23 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  // mode: 'jit',
+  purge: ['./pages/**/*.{js,jsx}', './src/**/*.{js,jsx}'],
+  darkMode: false, // or 'media' or 'class' or false
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#5c6ac4',
+        secondary: '#ecc94b'
+      }
+    }
   },
-  plugins: [],
+  variants: {
+    extend: {
+      backgroundColor: ['active']
+    }
+  },
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'class'
+    })
+  ]
 }
