@@ -1,5 +1,6 @@
 import Header from 'components/Header'
 import Sidebar from 'components/Sidebar'
+import FormExample from 'components/FormExample'
 import Head from 'next/head'
 
 const Layout = ({ children }) => {
@@ -12,6 +13,8 @@ const Layout = ({ children }) => {
       <Header />
       <div className="flex">
         <Sidebar />
+        <div className="container flex justify-center">{children}</div>
+        <FormExample />
         <div className="container flex justify-center">{children}</div>
       </div>
     </>
