@@ -1,7 +1,14 @@
 import Header from 'components/Header'
 import Sidebar from 'components/Sidebar'
-import FormExample from 'components/FormExample'
+import Formulaire_qualifs from 'components/Formulaire_qualifs'
 import Head from 'next/head'
+import Formulaire_formation from './Formulaire_formation'
+import Formulaire_experience from './Formulaire_experience'
+import Formulaire_stage from './Formulaire_stage'
+import Maintenance_corrective from 'components/Maintenance_corrective'
+
+
+
 
 const Layout = ({ children }) => {
   return (
@@ -14,7 +21,7 @@ const Layout = ({ children }) => {
       <div className="flex">
         <Sidebar />
         <div className="container flex justify-center">{children}</div>
-        <FormExample />
+        <Maintenance_corrective />
         <div className="container flex justify-center">{children}</div>
       </div>
     </>
