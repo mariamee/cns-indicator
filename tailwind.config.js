@@ -12,7 +12,7 @@ module.exports = {
           10: '#7e7f83',
           20: '#cdcdd4'
         },
-        background: '#fefefe',
+        background: '#fff',
         sky: {
           50: '#f0f9ff',
           100: '#0e1077',

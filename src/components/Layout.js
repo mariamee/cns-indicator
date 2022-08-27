@@ -7,9 +7,6 @@ import Formulaire_experience from './Formulaire_experience'
 import Formulaire_stage from './Formulaire_stage'
 import Maintenance_corrective from 'components/Maintenance_corrective'
 
-
-
-
 const Layout = ({ children }) => {
   return (
     <>
@@ -20,8 +17,6 @@ const Layout = ({ children }) => {
       <Header />
       <div className="flex">
         <Sidebar />
-        <div className="container flex justify-center">{children}</div>
-        <Maintenance_corrective />
         <div className="container flex justify-center">{children}</div>
       </div>
     </>
