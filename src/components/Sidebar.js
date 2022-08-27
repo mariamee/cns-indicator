@@ -156,22 +156,36 @@ const Sidebar = () => {
                     <li>CXR QX3440 |Antenne avance</li>
                   </ul>
                 </li>
+              </ul>
+            </figure>
+          </div>
+          <div className="flex-1 text-lg font-medium">
+            <figure className="rounded-xl p-5 bg-sky-1100 shadow-xl">
+              Data
+              <ul className="list-disc m text-xs">
+                <li>DATIS</li>
                 <li className="text-lg">
-                  <li>MUX</li>
+                  <li>RINAM</li>
                   <ul className="list-disc m text-xs">
-                    <li>HUAWEI RTN 950 |Tour de controle |ODU</li>
-                    <li>HUAWEI RTN 950 |Tour de controle |IDU</li>
-                    <li>HUAWEI RTN 950 |Antenne avance |ODU</li>
-                    <li>HUAWEI RTN 950 |Antenne avance |IDU</li>
-                    <li>Poste de supervision et de configuration</li>
+                    <li> Modem| IAM</li>
+                    <li> Routeur| Cisco</li>
+                    <li> Switches| Cisco</li>
+                    <li> Poste LVM</li>
+                  </ul>
+                </li>
+                <li className="text-lg">
+                  <li>AMHS</li>
+                  <ul className="list-disc m text-xs">
+                    <li> Modem| IAM</li>
+                    <li> Routeur| Cisco</li>
+                    <li> Switches| Cisco</li>
+                    <li> Poste LVM</li>
                   </ul>
                 </li>
               </ul>
             </figure>
           </div>
-          <div className="flex-1 text-lg font-medium">
-            <figure className="rounded-xl p-5 bg-sky-1100 shadow-xl">Data</figure>
-          </div>
+
           <div className="flex-1 text-lg font-medium">
             <figure className="rounded-xl p-5 bg-sky-1200 shadow-3xl">Energie</figure>
           </div>
