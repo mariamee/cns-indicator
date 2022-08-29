@@ -5,8 +5,11 @@ import Head from 'next/head'
 import Formulaire_formation from './Formulaire_formation'
 import Formulaire_experience from './Formulaire_experience'
 import Formulaire_stage from './Formulaire_stage'
-import Maintenance_corrective from 'components/Maintenance_corrective'
+import Example from 'components/data'
+import Fiche_perso from './Fiche_perso'
 
+import CV from 'react-cv'
+import { CVData } from './data';
 
 
 
@@ -21,7 +24,9 @@ const Layout = ({ children }) => {
       <div className="flex">
         <Sidebar />
         <div className="container flex justify-center">{children}</div>
-        <Maintenance_corrective />
+        <div>
+        <CV {...CVData} />
+      </div>
         <div className="container flex justify-center">{children}</div>
       </div>
     </>
