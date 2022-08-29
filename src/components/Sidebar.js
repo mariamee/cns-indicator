@@ -1,18 +1,12 @@
-import Image from 'next/image'
 import { useState } from 'react'
-import control from '/src/components/assets/control.png'
+import Image from 'next/image'
+import cn from 'classnames'
+import Link from 'next/link'
+
+import { MENUS } from 'utils/constants'
+
 const Sidebar = () => {
   const [open, setOpen] = useState(true)
-  const Menus = [
-    { title: 'Mon équipe', src: 'group' },
-    { title: 'Inbox', src: 'Chat' },
-    { title: 'Accounts', src: 'User', gap: true },
-    { title: 'Schedule ', src: 'Calendar' },
-    { title: 'Search', src: 'Search' },
-    { title: 'Analytics', src: 'Chart' },
-    { title: 'Files ', src: 'Folder', gap: true },
-    { title: 'Setting', src: 'Setting' }
-  ]
 
   return (
     <div className="flex">
@@ -22,34 +16,34 @@ const Sidebar = () => {
         } bg-sky-100 text-background h-screen p-5  pt-8 relative duration-300`}
       >
         <Image
-          src={control}
+          src="/assets/control.png"
+          layout="fixed"
+          height="50"
+          width="50"
           alt="/"
           className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
            border-2 rounded-full  ${!open && 'rotate-180'}`}
           onClick={() => setOpen(!open)}
         />
-        {/* <div className="flex flex-col items-center justify-center"></div>
+        <div className="flex flex-col items-center justify-center"></div>
         <ul className="pt-6">
-          {Menus.map((Menu, index) => (
-            <li
-              key={index}
-              className={`flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4 
-              ${Menu.gap ? 'mt-9' : 'mt-2'} ${index === 0 && 'bg-light-white'} `}
-            >
-              <Image
-                src={`/src/components/assets/${Menu.src}.png`}
-                layout="fill"
-                className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
-                border-2 rounded-full  ${!open && 'rotate-180'}`}
-                alt="/"
-              />
-              <span className={`${!open && 'hidden'} origin-left duration-200`}>{Menu.title}</span>
-            </li>
+          {MENUS.map((Menu, index) => (
+            <Link href={Menu.route}>
+              <li
+                key={index}
+                className={cn(
+                  'flex  rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-l font-semibold items-center gap-x-4',
+                  { 'mt-9': Menu.gap, 'mt-2': !Menu.gap, 'bg-light-white': index === 0 }
+                )}
+              >
+                <img src={`/assets/${Menu.src}.png`} />
+                <span className={cn('origin-left duration-200 text-white', { hidden: !open })}>
+                  {Menu.title}
+                </span>
+              </li>
+            </Link>
           ))}
-        </ul>*/}
-      </div>
-      <div className="h-screen flex-1 p-7">
-        {/* <h1 className="text-2xl font-semibold "></h1> */}
+        </ul>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ const Header = () => {
       <Image src={logoImage} alt="/" width={120} height={80} />
       <div className="mr-auto flex items-center rgba(14,16,119,255)">
         <div className="d-flex text-sky-100/80 font-bold tracking-wide h2 my-2">ONDA Tétouan </div>
-        <div className="d-flex text-grey/70 font-bold tracking-wide h2 my-2"> |CNS Indicator </div>
+        <div className="d-flex text-grey-10/70 font-bold tracking-wide h2 my-2">|CNS Indicator</div>
       </div>
 
       <Link href="login">
