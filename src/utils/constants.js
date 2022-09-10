@@ -124,7 +124,7 @@ export const DEPARTMENTS = [
 export const MENUS = [
   { title: 'Mon équipe', src: 'group', route: '/' },
   { title: 'Mes équipements', src: 'equipements', route: 'equipments' },
-  { title: 'Indicateur', src: 'indicateur', route: '/ssss' },
+  { title: 'Indicateur', src: 'indicateur', route: '/maintenance_prev' },
   { title: 'Maintenance', src: 'maintenance', route: '/maintenance' },
   { title: 'Cartographies', src: 'cartographie', route: '/ssss' },
   { title: 'Bilans', src: 'bilan', route: '/ssss' }
