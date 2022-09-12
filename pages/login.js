@@ -20,8 +20,8 @@ const Login = () => {
               <Image src={logoImage} alt="/" width={220} height={110} />
             </div>
             <div className="py-10 text-[#0e1373]">
-              <h2 className="text-3xl font-bold mb-2">Sign in to Account</h2>
-              <p className="text-gray-400 mb-10 mt-5">Use your email account</p>
+              <h2 className="text-3xl font-bold mb-2">Se Connecter à votre compte</h2>
+              <p className="text-gray-400 mb-8 mt-5">Utiliser votre compte email </p>
               <div className="flex flex-col items-center">
                 <div className="bg-gray-100 flex items-center w-64 p-2 mb-3">
                   <FaRegEnvelope className="text-gray-400 m-2" />
@@ -44,17 +44,18 @@ const Login = () => {
                 <div className=" flex w-64 mt-5 justify-between">
                   <label htmlFor="#" className="text-xs flex items-center">
                     <input type="checkbox" name="remember" className="mr-1" />
-                    Remember me
+                    Se souvenir de mon mot de passe
                   </label>
+                  <br />
                   <a href="#" className="text-xs">
-                    <p>Forgot Password?</p>
+                    <p>Mot de passe oublié?</p>
                   </a>
                 </div>
                 <a
                   href="#"
                   className="border-2 border-[#0e1373] rounded-full px-12 mt-8 py-2 inline-block font-semibold hover:bg-[#0e1373] hover:text-gray-100"
                 >
-                  Sign in
+                  Créer votre compte
                 </a>
               </div>
             </div>
