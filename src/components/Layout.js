@@ -8,14 +8,6 @@ import Formulaire_stage from './Formulaire_stage'
 import Example from 'components/data'
 import Fiche_perso from './Fiche_perso'
 
-<<<<<<< HEAD
-import CV from 'react-cv'
-import { CVData } from './data';
-
-
-
-=======
->>>>>>> 49c92da50967db6bd5d66b92bb17d8317b50eb4a
 const Layout = ({ children }) => {
   return (
     <>
@@ -27,13 +19,6 @@ const Layout = ({ children }) => {
       <div className="flex">
         <Sidebar />
         <div className="container flex justify-center">{children}</div>
-<<<<<<< HEAD
-        <div>
-        <CV {...CVData} />
-      </div>
-        <div className="container flex justify-center">{children}</div>
-=======
->>>>>>> 49c92da50967db6bd5d66b92bb17d8317b50eb4a
       </div>
     </>
   )

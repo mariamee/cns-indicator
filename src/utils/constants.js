@@ -126,6 +126,7 @@ export const MENUS = [
   { title: 'Mes équipements', src: 'equipements', route: 'equipments' },
   { title: 'Indicateur', src: 'indicateur', route: '/maintenance_prev' },
   { title: 'Maintenance', src: 'maintenance', route: '/maintenance' },
+  { title: 'Profile', src: 'profile', route: '/profile' },
   { title: 'Cartographies', src: 'cartographie', route: '/ssss' },
   { title: 'Bilans', src: 'bilan', route: '/ssss' }
 ]

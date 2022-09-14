@@ -6,14 +6,15 @@ export const CVData = {
     contacts: [
       { type: 'email', value: 'john@example.com' },
       { type: 'phone', value: '+00 (123) 456 78 90' },
-      { type: 'location', value: 'New York' },
-      ]
+      { type: 'location', value: 'New York' }
+    ]
   },
   sections: [
     {
       type: 'text',
       title: 'Carrière',
-      content: 'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
+      content:
+        'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
       icon: 'usertie'
     },
     {
@@ -44,7 +45,7 @@ export const CVData = {
         {
           title: 'Lead Software Developer',
           company: 'Some Company Example INC',
-          description: 'I\'m working as a lead developer yeeeey!',
+          description: "I'm working as a lead developer yeeeey!",
           companyWebSite: 'http://somecompanyexample.com',
           companyMeta: '',
           datesBetween: '2017.10 - Present',
@@ -53,7 +54,7 @@ export const CVData = {
         {
           title: 'Software Developer',
           company: 'Some Company Example INC',
-          description: 'I\'m using ReactJS and working as a front-end developer',
+          description: "I'm using ReactJS and working as a front-end developer",
           companyWebSite: 'http://somecompanyexample.com',
           companyMeta: 'Little info about company',
           datesBetween: '2016.8 - 2017.10'
