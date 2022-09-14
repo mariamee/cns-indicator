@@ -130,3 +130,48 @@ export const MENUS = [
   { title: 'Cartographies', src: 'cartographie', route: '/ssss' },
   { title: 'Bilans', src: 'bilan', route: '/ssss' }
 ]
+
+export const PREVENTIVE_MOCK = {
+  vor_dme: {
+    voir_indra_vrb_53d_vor1: 2,
+    voir_indra_vrb_53d_vor2: 15,
+    dmr_r_indra_ldb_103_dme_n: 21,
+    dmr_r_indra_ldb_103_dme_s: 10,
+    poste_supervision_et_configuration: 20,
+    liaison_fh: 15,
+    switches: 8,
+    ensemble_telecommande_et_panneau_detat: 4
+  },
+  todo_name: {
+    localizer_thales_421_loc_n: 18,
+    localizer_thales_421_loc_s: 13,
+    glide_path_thales_422_gp_n: 22,
+    glide_path_thales_422_gp_s: 14,
+    dme_l_thales_415_dme_n: 19,
+    dme_l_thales_415_dme_s: 1,
+    poste_supervision_et_configuration: 24,
+    liaison_fh_loc: 10,
+    liaison_fh_gp: 12
+  }
+}
+
+export const PREVENTIVE_NAMES = {
+  vor_dme: 'VOR/DME',
+  voir_indra_vrb_53d_vor1: 'VOR, INDRA VRB 53D,OR 1',
+  voir_indra_vrb_53d_vor2: 'voir_indra_vrb_53d_vor2',
+  dmr_r_indra_ldb_103_dme_n: 'dmr_r_indra_ldb_103_dme_n',
+  dmr_r_indra_ldb_103_dme_s: 'dmr_r_indra_ldb_103_dme_s',
+  liaison_fh: 'liaison_fh',
+  switches: 'switches',
+  ensemble_telecommande_et_panneau_detat: 'ensemble_telecommande_et_panneau_detat',
+  todo_name: 'TODO CHANGE NAME',
+  localizer_thales_421_loc_n: 'localizer_thales_421_loc_n',
+  localizer_thales_421_loc_s: 'localizer_thales_421_loc_s',
+  glide_path_thales_422_gp_n: 'glide_path_thales_422_gp_n',
+  glide_path_thales_422_gp_s: 'glide_path_thales_422_gp_s',
+  dme_l_thales_415_dme_n: 'dme_l_thales_415_dme_n',
+  dme_l_thales_415_dme_s: 'dme_l_thales_415_dme_s',
+  poste_supervision_et_configuration: 'poste_supervision_et_configuration',
+  liaison_fh_loc: 'liaison_fh_loc',
+  liaison_fh_gp: 'liaison_fh_gp'
+}
