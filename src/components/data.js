@@ -1,141 +1,171 @@
 export const CVData = {
   personalData: {
-    name: 'John Doe',
-    title: 'Senior Software Developer',
+    name: 'MAFTOUH ABDELHAK',
+    birthday: '26/07/1979',
+    recrutment: '12/05/2006',
+    title: 'Chef de service Technique Navigation / Electronicien de la Sécurité  Aérienne',
     image: 'https://bulma.io/images/placeholders/128x128.png',
     contacts: [
-      { type: 'email', value: 'john@example.com' },
-      { type: 'phone', value: '+00 (123) 456 78 90' },
-      { type: 'location', value: 'New York' }
+      { type: 'email', value: 'a.maftouh@onda.ma' },
+      { type: 'phone', value: '+212 661 41 55 93' },
+      { type: 'location', value: 'TETOUAN' }
     ]
   },
   sections: [
     {
-      type: 'text',
-      title: 'Carrière',
-      content:
-        'When I was child, I always want to be a developer. I think I am now. Culpa proident ad officia minim Lorem sint excepteur irure culpa nisi aliquip nostrud.Laborum voluptate nostrud fugiat occaecat proident veniam excepteur pariatur amet ex sit.Anim aliquip do in commodo adipisicing.Nulla adipisicing nisi enim ullamco sunt veniam.Ullamco labore sunt Lorem veniam id et Lorem magna eiusmod aute. Aliquip minim est consectetur anim mollit aliqua ex elit do et nulla do. Cupidatat ad sunt cillum sint consectetur sunt cillum eiusmod ad esse aliqua. Aute anim elit amet in duis aute ipsum deserunt qui deserunt officia excepteur veniam. Et laboris nostrud est ipsum nulla fugiat deserunt magna velit irure. Ullamco duis ut magna ea tempor enim in ipsum.',
-      icon: 'usertie'
-    },
-    {
       type: 'common-list',
-      title: 'Education',
+      title: 'Formation',
       icon: 'graduation',
       items: [
         {
-          title: 'Computer Engineering (BS)',
-          authority: 'University',
+          title: 'Electronicien de la sécurité aérienne',
+          authority: 'AIMAC',
           authorityWebSite: 'https://sample.edu',
-          rightSide: '2013 - 2017'
-        },
-        {
-          title: 'Some Department (PHD)',
-          authority: 'Another University',
-          authorityWebSite: 'https://sample.edu',
-          rightSide: '2017 - Present'
+          rightSide: '2004-2006'
         }
       ]
     },
     {
       type: 'experiences-list',
-      title: 'Experiences',
-      description: 'Optional',
+      title: 'Experiences Professionnels',
       icon: 'archive',
       items: [
         {
-          title: 'Lead Software Developer',
-          company: 'Some Company Example INC',
-          description: "I'm working as a lead developer yeeeey!",
-          companyWebSite: 'http://somecompanyexample.com',
-          companyMeta: '',
-          datesBetween: '2017.10 - Present',
-          descriptionTags: ['Javascript', 'React']
+          title: 'Chef de Service/ESA',
+          company: 'AP TETOUAN',
+          datesBetween: 'A/C de 2013'
         },
         {
-          title: 'Software Developer',
-          company: 'Some Company Example INC',
-          description: "I'm using ReactJS and working as a front-end developer",
-          companyWebSite: 'http://somecompanyexample.com',
-          companyMeta: 'Little info about company',
-          datesBetween: '2016.8 - 2017.10'
-        },
-        {
-          title: 'Intern',
-          company: 'Some Software Example INC',
-          description: 'I was warming up.',
-          companyWebSite: 'http://someexamplecompany.com',
-          companyMeta: 'SF USA',
-          datesBetween: '2012.06 - 2012.10'
+          title: 'Electronicien de la sécurité aérienne',
+          company: 'AP TETOUAN',
+          datesBetween: '2006-2013'
         }
       ]
     },
     {
       type: 'projects-list',
-      title: 'Projects',
-      description: 'Optional',
-      icon: 'tasks',
+      title: 'Suivi des stages et des formations de qualification et de perfectionnement',
+      icon: 'rocket',
       groups: [
         {
-          sectionHeader: 'Company Name',
-          description: 'Optional',
+          sectionHeader: 'AP TETOUAN',
+          description: 'Formateur : FRONCOI BOBBI/THALES',
           items: [
-            { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-            { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-            { title: 'Project', projectUrl: 'optional', description: 'Optional' }
+            { title: 'Formation en ILS AN 420 & DME 415', description: '17/03/2008 -> 28/03/2008' }
+          ]
+        },
+        {
+          sectionHeader: 'AP TETOUAN',
+          description: 'Formateur : MOHAMED JBARA/ONDA',
+          items: [
+            {
+              title: 'Formation en sureté aéroportuaire',
+              description: '12/03/2009 08:30-> 12/03/2009 16:30'
+            }
+          ]
+        },
+        {
+          sectionHeader: 'AP TANGER',
+          description: 'Formateur : CALIOP',
+          items: [
+            {
+              title: 'Anglais Général',
+              description: '19/01/2010 -> 12/07/2010 '
+            }
+          ]
+        },
+        {
+          sectionHeader: 'Société AVIACOM CASABLANCA',
+          description: 'Formateur : RIME SOLTH -TOR EGIL CHRISTIANSEN -AKRAM KUSTAM',
+          items: [
+            {
+              title: 'Formation en équipements tour nouvelle installation',
+              description: '30/05/2011-> 27/05/2011 '
+            }
+          ]
+        },
+        {
+          sectionHeader: 'AIAC',
+          items: [
+            {
+              title: 'Nouveau règlement des marchés ONDA',
+              description: '2 jours 2013'
+            }
+          ]
+        },
+        {
+          sectionHeader: 'Centre AVSEC',
+          description: 'MOSTAFA JBARA/ONDA',
+          items: [
+            {
+              title: 'Gestion des crises en sureté de l aviation ',
+              description: '09/02/2015-> 13/02/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'PNA',
+          description: 'Formateur : BRIAN BUDDERY/RADIOLA AEROSPACE',
+          items: [
+            {
+              title: 'Formation en équipements tour nouvelle installation',
+              description: '23/03/2015 -> 10/06/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'AP TETOUAN',
+          description: 'Formateur : YOUNESS AIT ADI/TELEPAC TECHNOLOGY',
+          items: [
+            {
+              title: 'Multiplexeur',
+              description: '07/07/2015 -> 09/07/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'AP TETOUAN',
+          items: [
+            {
+              title: 'Faisceau Hertzien HUAWEI',
+              description: '05/08/2015 -> 06/08/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'CENTRE AVSEC',
+          items: [
+            {
+              title: 'Instructeur en sureté de l aviation civile',
+              description: '08/09/2015 -> 16/09/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'AIAC',
+          items: [
+            {
+              title: 'Réglementation des marchés Publics',
+              description: '28/09/2015 -> 29/09/2015 '
+            }
+          ]
+        },
+
+        {
+          sectionHeader: 'AIAC',
+          items: [
+            {
+              title: 'Réglementation des marchés Publics',
+              description: '05/10/2015 -> 07/10/2015 '
+            }
           ]
         }
       ]
-    },
-    {
-      type: 'common-list',
-      title: 'Conferences & Certificates',
-      description: '',
-      icon: 'comments',
-      items: [
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityWebSite: 'https://www.someconf.somesome'
-        },
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityMeta: 'Speaker',
-          authorityWebSite: 'https://www.someconf.somesome',
-          rightSide: 'test'
-        },
-        {
-          title: 'Some Conferences / 2012',
-          authorityMeta: 'Speaker'
-        }
-      ]
-    },
-    {
-      type: 'common-list',
-      title: 'Languages',
-      icon: 'language',
-      items: [
-        {
-          authority: 'English',
-          authorityMeta: 'Professional'
-        },
-        {
-          authority: 'Spanish',
-          authorityMeta: 'Beginner'
-        }
-      ]
-    },
-    {
-      type: 'tag-list',
-      title: 'Skills Proficiency',
-      icon: 'rocket',
-      items: ['React', 'Javascript', 'CSS', 'SQL', 'SomeTech', 'CoolTech']
-    },
-    {
-      type: 'tag-list',
-      title: 'Hobbies & Interests',
-      icon: 'cubes',
-      items: ['Photography', 'Poetry']
     }
   ]
 }

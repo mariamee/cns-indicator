@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Image from 'next/image'
 import cn from 'classnames'
 import Link from 'next/link'
+import React from 'react'
+import { createPopper } from '@popperjs/core'
 
 import { MENUS } from 'utils/constants'
 

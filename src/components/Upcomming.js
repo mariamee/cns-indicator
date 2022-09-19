@@ -31,17 +31,18 @@ const data = [
   {
     _id: '6144145976c7fe',
     email: 'minageres123@gmail.com',
-    name: 'Mina',
-    phone: '+9617099995114',
+    name: 'Abdelhak Maftouh',
+    phone: '+212708195114',
     subject: 'test',
     message: 'ahlannn',
-    date: '2021-09-17 19:10:50'
+    date: '2021-09-17',
+    time: '19:10:50'
   },
   {
     _id: '6143989f9d87cc',
     email: 'as@a.com',
-    name: 'as',
-    phone: '+9617646699991',
+    name: 'Qamar Hanine',
+    phone: '+2126618195114',
     subject: 'as',
     message: 'as',
     date: '2021-09-16 22:18:31'
@@ -49,8 +50,8 @@ const data = [
   {
     _id: '614397edc9177d8c8',
     email: 'amine@amine.com',
-    name: 'amine',
-    phone: '+334343439393993',
+    name: 'Rachid',
+    phone: '+212666195114',
     subject: '1234',
     message: '3434',
     date: '2021-09-16 22:15:57'
@@ -58,8 +59,8 @@ const data = [
   {
     _id: '6143be67dfca4985c',
     email: 'dominique.amine@gmail.com',
-    name: 'Dominique',
-    phone: '+96189904686',
+    name: 'Dounia',
+    phone: '+212660195114',
     subject: 'Dev ',
     message: 'Ohmaga',
     date: '2021-09-16 21:33:04'
@@ -67,8 +68,8 @@ const data = [
   {
     _id: '61141e57a7dbd8a189e',
     email: 'amineamine19961996@gmail.com',
-    name: 'amine amine',
-    phone: '+96176776341',
+    name: 'Amine Mouchahid',
+    phone: '+21266776341',
     subject: 'qw',
     message: 'qw',
     date: '2021-08-11 22:00:39'

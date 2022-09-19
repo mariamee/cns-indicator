@@ -103,7 +103,21 @@ export const DEPARTMENTS = [
     colorClass: 'bg-sky-1100',
     ensembles: [
       {
-        name: 'DATIS'
+        name: 'DATIS',
+        equipments: [
+          'Server 1',
+          'Server 2',
+          'KVM Console',
+          'Switch 1',
+          'Switch 2',
+          'PTT1',
+          'PTT2',
+          'VHF Transmetter N',
+          'VHF Transmetter S',
+          'Poste client Tower',
+          'Poste client ATSEP',
+          'Poste client CLA'
+        ]
       },
       {
         name: 'RINAM',
@@ -117,7 +131,21 @@ export const DEPARTMENTS = [
   },
   {
     depName: 'Energie',
-    colorClass: 'bg-sky-1200'
+    colorClass: 'bg-sky-1200',
+    ensembles: [
+      {
+        name: 'Tour de controle',
+        equipments: ['Onduleur 20KVA', 'Chargeur Redresseur', 'Batteries', 'TGBT']
+      },
+      {
+        name: 'VOR DME',
+        equipments: ['Stabilisateur VOR', 'Stabilisateur DME', 'Batteries']
+      },
+      {
+        name: 'ILS DME',
+        equipments: ['Stabilisateur LOC', 'Stabilisateur GP', 'Batteries']
+      }
+    ]
   }
 ]
 
