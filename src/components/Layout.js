@@ -18,7 +18,9 @@ const Layout = ({ children }) => {
       <Header />
       <div className="flex">
         <Sidebar />
-        <div className="container flex justify-center">{children}</div>
+        <div className="container flex justify-center h-screen overflow-y-auto pt-24">
+          {children}
+        </div>
       </div>
     </>
   )

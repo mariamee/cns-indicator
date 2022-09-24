@@ -11,11 +11,11 @@ const Sidebar = () => {
   const [open, setOpen] = useState(true)
 
   return (
-    <div className="flex">
+    <div className="flex pt-24">
       <div
         className={` ${
           open ? 'w-72' : 'w-20 '
-        } bg-sky-100 text-background h-screen p-5  pt-8 relative duration-300`}
+        } bg-sky-100 text-background h-full p-5  pt-8 relative duration-300`}
       >
         <Image
           src="/assets/control.png"

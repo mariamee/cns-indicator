@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logoImage from '/public/logoImage.jpeg'
 const Header = () => {
   return (
-    <ul className=" flex flex-col gap-2 lg:flex-row lg:items-center bg-background p-2 shadow-2xl justify-between flex-shrink-0">
+    <ul className=" flex flex-col gap-2 lg:flex-row lg:items-center bg-background p-2 shadow-2xl justify-between flex-shrink-0 absolute z-10 w-full">
       <Image src={logoImage} alt="/" width={120} height={80} />
       <div className="mr-auto flex items-center rgba(14,16,119,255)">
         <div className="d-flex text-sky-100/80 font-bold tracking-wide h2 my-2">ONDA Tétouan </div>
