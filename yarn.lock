@@ -483,6 +483,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
+"@react-leaflet/core@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-2.1.0.tgz#383acd31259d7c9ae8fb1b02d5e18fe613c2a13d"
+  integrity sha512-Qk7Pfu8BSarKGqILj4x7bCSZ1pjuAPZ+qmRwH5S7mDS91VSbVVsJSrW4qA+GPrro8t69gFYVMWb1Zc4yFmPiVg==
+
 "@rollup/pluginutils@^4.1.2", "@rollup/pluginutils@^4.2.0":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
@@ -503,10 +508,10 @@
   dependencies:
     tslib "^2.4.0"
 
-"@tailwindcss/forms@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.2.tgz#4ef45f9916dcb37838cbe7fecdcc4ba7a7c2ab59"
-  integrity sha512-pSrFeJB6Bg1Mrg9CdQW3+hqZXAKsBrSG9MAfFLKy1pVA4Mb4W7C0k7mEhlmS2Dfo/otxrQOET7NJiJ9RrS563w==
+"@tailwindcss/forms@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/forms/-/forms-0.5.3.tgz#e4d7989686cbcaf416c53f1523df5225332a86e7"
+  integrity sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
@@ -1879,6 +1884,16 @@ header-case@^2.0.4:
     capital-case "^1.0.4"
     tslib "^2.0.3"
 
+heroicons-react@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/heroicons-react/-/heroicons-react-1.4.1.tgz#52f88a7a178b3ebaaa488da87ead631c13d99846"
+  integrity sha512-lFB8N44eeju73p5IjaeRrRejXsWWjsmeLK1LQrXGI5UnV9qvkzk2VZoMx5HKLnp1xJI4i9pFh/g2uRc7M1jrjQ==
+
+heroicons@^2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-2.0.11.tgz#d733063f57c5f523d730306379859eebdf68eaee"
+  integrity sha512-pjp6xFVNuc7So67RcHD0krrjkvxiUfNh1/48Pvi4SKVeT2qRlunWnKmqCpGpKGpvFl2rQSmkdHFXLVvgR145dg==
+
 html-minifier-terser@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#bfc818934cc07918f6b3669f5774ecdfd48f32ab"
@@ -2142,6 +2157,11 @@ language-tags@^1.0.5:
   integrity sha512-qJhlO9cGXi6hBGKoxEG/sKZDAHD5Hnu9Hs4WbOY3pCWXDhw0N8x1NenNzm2EnNLkLkk7J2SdxAkDSbb6ftT+UQ==
   dependencies:
     language-subtag-registry "~0.3.2"
+
+leaflet@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.1.tgz#73c3c31233f5bc69ad3dd681e67860ba28c87291"
+  integrity sha512-5FcDAMTLAuOq0RisQQbTFatl8Sl4bM0gMrBfuHbl7CYbYJv45BfCS8oU3T644MLjleBq1Ncq541QEA1pqUGTFA==
 
 less@^4.1.3:
   version "4.1.3"
@@ -2675,6 +2695,13 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-leaflet@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-4.1.0.tgz#b53bce23af3bd932c189d7a80bcc7102db85edee"
+  integrity sha512-i+V9pX5lywJ48O2+K3USeeTdYLIhxnLMweH+YLd/UPqVIj3uKzE3Q29bzt83PBtViyZmxDlulzC6uoR3JLiE9A==
+  dependencies:
+    "@react-leaflet/core" "^2.1.0"
+
 react-next-table@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/react-next-table/-/react-next-table-1.1.4.tgz#a3c6ca56d0d4a2cc30b0af79cd95603164d5bf85"
@@ -2686,6 +2713,11 @@ react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-table@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/react-table/-/react-table-7.8.0.tgz#07858c01c1718c09f7f1aed7034fcfd7bda907d2"
+  integrity sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==
 
 react@18.2.0:
   version "18.2.0"
