@@ -192,7 +192,7 @@ export const PREVENTIVE_NAMES = {
   liaison_fh: 'liaison_fh',
   switches: 'switches',
   ensemble_telecommande_et_panneau_detat: 'ensemble_telecommande_et_panneau_detat',
-  todo_name: 'TODO CHANGE NAME',
+  todo_name: 'ILS/DME ATT',
   localizer_thales_421_loc_n: 'localizer_thales_421_loc_n',
   localizer_thales_421_loc_s: 'localizer_thales_421_loc_s',
   glide_path_thales_422_gp_n: 'glide_path_thales_422_gp_n',
