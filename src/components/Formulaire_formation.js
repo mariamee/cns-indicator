@@ -10,7 +10,7 @@ import { MdOutlineCastForEducation} from 'react-icons/md'
 
 
 
- function Formulaire_formation() {
+ const Formulaire_formation =() => {
   return (
     <div className=" items-center justify-center mt-5 h-full w-full xl:pl-6 xl:pr-6 xl:pb-6 xl:py-6 bg-[#0e1373]">
       <Head>

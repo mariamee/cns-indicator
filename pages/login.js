@@ -55,7 +55,7 @@ const Login = () => {
                   href="#"
                   className="border-2 border-[#0e1373] rounded-full px-12 mt-8 py-2 inline-block font-semibold hover:bg-[#0e1373] hover:text-gray-100"
                 >
-                  Créer votre compte
+                  Se Connecter
                 </a>
               </div>
             </div>

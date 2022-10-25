@@ -15,6 +15,8 @@ export const CVData = {
     {
       type: 'common-list',
       title: 'Formation',
+      authority: 'AIMAC',
+      authorityWebSite: 'https://sample.edu',
       icon: 'graduation',
       items: [
         {
